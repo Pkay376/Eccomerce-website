@@ -10,7 +10,7 @@
     padding: 2rem;
     
 }
-.fa-regular, .fa-solid {
+.nav-menu {
     margin-left: 0.5rem;
     color: #ffff;
 }
@@ -21,17 +21,17 @@
 header{
    
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/assets-img/assets-img/hero.webp);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     max-width:900px;
     height: 812px;
 }
 .hero li{
-    font-family: dosis,sans-serif;
+    font-family: Dosis, sans-serif;
 }
 
 /*This is css styles for the hero section*/
-.hero{
+/* .hero{
     position: relative;
     width: 30%;
     height: 8rem;
@@ -42,10 +42,24 @@ header{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     justify-content: center;
+} */
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    font-size: 2rem;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
 }
 a{
     color: black;
@@ -54,7 +68,10 @@ a{
     list-style: none;
 }
 .hero h1{
-
+font-size: 30px;
+}
+.btn{
+    color: black;
 }
 
 
@@ -65,16 +82,17 @@ a{
        width: 379px;
        height: 26px;
        left: calc(50% - 379px/2 + 17.5px);
-       top: 2px;
+       top: 20px;
 
     }
     .nav li{
         list-style: none;
-        margin: 2rem; 
+        margin: 1rem; 
     }
     a{
         color: white;
         font-weight: 20px;
         text-decoration: none;
     }
+
 }
