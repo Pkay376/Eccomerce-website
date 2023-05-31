@@ -11,7 +11,8 @@
     
 }
 .nav-menu {
-    margin-left: 0.5rem;
+    display: flex;
+    gap: 0.8rem;
     color: #ffff;
 }
 .nav{
@@ -25,6 +26,8 @@ header{
     background-repeat: no-repeat;
     max-width:900px;
     height: 812px;
+    display: flex;
+    flex-direction: column;
 }
 .hero li{
     font-family: Dosis, sans-serif;
@@ -55,11 +58,13 @@ header{
     text-align: center;
     padding: 30px 15px;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 300px;
     font-size: 2rem;
-    height: 130px;
-    margin: 0 auto;
-    position: relative;
+    align-self: center;
+    width: 330px;
+    height: 171px;
+    margin: auto auto;
+
+    
 }
 a{
     color: black;
@@ -68,10 +73,11 @@ a{
     list-style: none;
 }
 .hero h1{
-font-size: 30px;
+font-size: 26px;
 }
 .btn{
     color: black;
+    font-size: 16px;
 }
 
 
