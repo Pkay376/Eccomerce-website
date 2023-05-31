@@ -51,6 +51,7 @@ a{
     list-style: none;
 }
 
+
 @media (min-width: 900px) {
     .nav{
         display: flex;
@@ -63,5 +64,11 @@ a{
     }
     .nav li{
         list-style: none;
+        margin: 2rem;
+       
+    }
+    a{
+        text-decoration: none;
+        color: #ffff;
     }
 }
