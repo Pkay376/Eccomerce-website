@@ -28,10 +28,12 @@ header{
    
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/images/assets-img/assets-img/hero.webp);
     background-position: center center;
-    height: 580px;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0 auto;
 }
 .hero li{
     font-family: Dosis, sans-serif;
@@ -40,7 +42,7 @@ header{
 /*This is css styles for the hero section*/
 
 .hero_content{
-    width: 85%;
+    width: 100%;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -76,6 +78,15 @@ font-size: 26px;
     color: black;
     font-size: 16px;
     text-decoration: underline;
+}
+.header_container{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*This is the tablet styling*/
