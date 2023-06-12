@@ -154,6 +154,18 @@
    flex-direction: column;
    justify-content: center;
 }
+.news{
+     margin-bottom: 30px;
+}
+.news .date{
+    width: 1rem;
+    height: 1 rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
 /*This is the tablet styling*/
     @media (min-width: 751px) and (max-width: 900px) {
         
@@ -251,18 +263,8 @@
 
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-}
- .footer_container .address{
-    display: flex;
-}
+
+
+
 
 
