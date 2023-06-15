@@ -1,16 +1,18 @@
 /*This is the message styling*/
 /*Css for the mobile*/
 .message_container{
-    width: 90%;
-    height: 24rem;
+    width: 92%;
+    height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex: 1 0 auto; */
     gap: 1rem;
-    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     
+    
 }
+
 .furniture{
     background-image: url(/assets/images/assets-img/assets-img/message.webp);
     background-size: cover;
@@ -116,19 +118,19 @@
 
 }
 .news_container .mirror{
-    background-image: url(../images/assets-img/assets-img/mirror\ 1.jpg);
+    background-image: url(../images/assets-img/assets-img/b1.jpg);
     background-position: center;
     background-size: cover;
    
 }
 .news_container .shower{
-    background-image: url(../images/assets-img/assets-img/shower.jpg);
+    background-image: url(../images/assets-img/assets-img/b2.jpg);
     background-position: center;
     background-size: cover;
     
 }
 .news_container .mirror2{
-    background-image: url(../images/assets-img/assets-img/mirror.jpg);
+    background-image: url(../images/assets-img/assets-img/b3.jpg);
     background-position: center;
     background-size: cover;
     
@@ -219,11 +221,13 @@
             padding: 1rem; 
             
         }
-        .message{
+        /*styles for the message section*/
+        .message_container{
             width: 92%;
             display: flex;
             flex: 0 1 auto;
             justify-content: space-between;
+            margin-top: 20px;
             
         }
         
@@ -266,8 +270,18 @@
             width: 23.5%;
             padding: 1rem; 
         }
+          /*styles for the message section*/
+          .message_container{
+            width: 92%;
+            display: flex;
+            flex: 0 1 auto;
+            justify-content: space-between;
+            margin-top: 20px;
+            
+        }
             .first{
-                flex-basis: 50%;
+                width: 49%;
+                height: 100%;
             }
 
     }
